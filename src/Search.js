@@ -9,7 +9,7 @@ export default function Search(props) {
   function handleSubmit(event) {
     event.preventDefault();
 
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2f4a61b0876133218968273ba29696cf&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3bc520cc14bbdedfd7e45158f2ef0439&units=metric`;
     axios.get(url).then(showTemperature);
   }
 
